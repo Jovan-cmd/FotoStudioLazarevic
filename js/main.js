@@ -128,7 +128,7 @@ function menu() {
     { text: "Autor", link: "#autor" },
     {
       text: "Doc",
-      link: "../informations/documentation.pdf",
+      link: "/informations/documentation.pdf",
       download: true
     }
   ];
