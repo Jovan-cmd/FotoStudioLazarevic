@@ -1,8 +1,6 @@
 var flag = true;
 document.getElementById("btnSend").addEventListener("click", function(){flag=true});
 $(document).ready(function() {
-
-
     populateEvents();
     menu();
     icons();
