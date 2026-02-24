@@ -1,3 +1,32 @@
+.success-box {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 18px 22px;
+    background: linear-gradient(135deg, #28a745, #4cd964);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ease;
+}
+
+.success-box.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.success-box .icon {
+    font-size: 22px;
+}
+
+.hidden {
+    display: none;
+}
 /* Magnific Popup CSS */
 .mfp-bg {
   top: 0;

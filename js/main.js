@@ -1,7 +1,7 @@
 var flag = true;
 document.getElementById("btnSend").addEventListener("click", function(){flag=true});
 $(document).ready(function() {
-    //"use strict";
+
 
     populateEvents();
     menu();
@@ -304,11 +304,21 @@ function formValidate() {
     timeValidation(ddlTime, messageTime);
 
     if (flag) {
-        let divSuccess = document.querySelector("#success");
-        divSuccess.setAttribute("class", "alert alert-success mt-4");
+        let divSuccess = document.getElementById("success");
 
-        divSuccess.innerHTML = `Thanks ${nameContact.value}, we will reach You as soon as possible!`;
+        divSuccess.innerHTML = `
+        <div>
+            <strong>Forma je uspešno poslata!</strong><br>
+            Hvala ${nameContact.value}, kontaktiraćemo vas u najkraćem roku!
+        </div>
+    `;
 
+    divSuccess.classList.remove("hidden");
+    divSuccess.classList.add("show");
+
+    setTimeout(() => {
+        divSuccess.classList.remove("show");
+    }, 5000);
         document.getElementById("form").reset();
         console.log(errorCount)
     }
@@ -371,7 +381,7 @@ function populateEvents() {
             bg: "primary",
             time: "Nadolazeće",
             title: "Dođite i sa nama proslavite desetogodišnjicu od otvaranja!",
-            happened: "January 30, 2023"
+            happened: "Januar 30, 2023"
         },
         {
             src: "calendars",
