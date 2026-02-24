@@ -696,15 +696,15 @@ strong {
 }
 
 .news-image-hover-warning::after {
-  background: #ffc107;
+  background: #b80e2a;
 }
 
 .news-image-hover-primary::after {
-  background: #0d6efd;
+  background: #006e18;
 }
 
 .news-image-hover-success::after {
-  background: #198754;
+  background: #ffe600;
 }
 
 .news-image-hover:hover::after {
