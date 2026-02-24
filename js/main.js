@@ -126,7 +126,7 @@ function menu() {
     { text: "Autor", link: "#autor" },
     {
       text: "Doc",
-      link: "",
+      link: "dokumentacija.pdf",
       download: true
     },
     { text: "Sajt", link: "#" }
