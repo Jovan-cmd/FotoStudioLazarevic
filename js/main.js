@@ -123,14 +123,15 @@ function menu() {
     { text: "Početna", link: "#pocetna" },
     { text: "O nama", link: "#o-nama" },
     { text: "Portfolio", link: "#portfolio" },
-    { text: "Dogadjaji", link: "#dogadjaji" },
+    { text: "Događaji", link: "#dogadjaji" },
     { text: "Kontakt", link: "#kontakt" },
     { text: "Autor", link: "#autor" },
     {
       text: "Doc",
       link: "",
       download: true
-    }
+    },
+    { text: "Sajt", link: "#" }
   ];
 
   menu.forEach(el => {
@@ -159,13 +160,12 @@ function menu() {
 
 function icons() {
     var social = "<ul class='social-icon'>"
-    let menu = ["facebook", "whatsapp", "instagram", "youtube", "diagram-3", "file-earmark-pdf"];
+    let menu = ["facebook", "whatsapp", "instagram", "youtube", "diagram-3"];
     let href = ["https://www.facebook.com/",
         "https://wa.me/+3811234567",
         "https://www.instagram.com/",
         "https://www.youtube.com/",
         "informations/sitemap.xml",
-        "informations/documentation.pdf"
     ]
 
     menu.forEach(function callback(element, index) {
