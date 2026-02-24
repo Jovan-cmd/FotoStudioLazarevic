@@ -129,7 +129,7 @@ function menu() {
       link: "dokumentacija.pdf",
       download: true
     },
-    { text: "Sajt", link: "#" }
+    { text: "Sajt", link: "" }
   ];
 
   menu.forEach(el => {
