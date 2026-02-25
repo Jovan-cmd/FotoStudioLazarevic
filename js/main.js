@@ -124,6 +124,7 @@ function menu() {
     { text: "Događaji", link: "#dogadjaji" },
     { text: "Kontakt", link: "#kontakt" },
     { text: "Autor", link: "#autor" },
+    { text: "Sajt", link: "FotoStudioLazarevic.zip", download: true},
     {
       text: "Doc",
       link: "dokumentacija.pdf",
