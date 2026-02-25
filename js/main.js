@@ -130,7 +130,7 @@ function menu() {
       download: true
     },
     {
-      text: "Sajt", link: "/FotoStudioLazarevic.zip", download: true
+      text: "Sajt", link: "FotoStudioLazarevic.zip", download: true
     }
   ];
 
