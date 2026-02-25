@@ -128,10 +128,7 @@ function menu() {
       text: "Doc",
       link: "dokumentacija.pdf",
       download: true
-    },
-    {
-      text: "Sajt", link: "FotoStudioLazarevic.zip", download: true
-    }
+    }   
   ];
 
   menu.forEach(el => {
