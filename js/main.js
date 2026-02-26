@@ -163,7 +163,7 @@ function icons() {
         "https://wa.me/+3811234567",
         "https://www.instagram.com/",
         "https://www.youtube.com/",
-        "informations/sitemap.xml",
+        "sitemap.xml",
     ]
 
     menu.forEach(function callback(element, index) {
